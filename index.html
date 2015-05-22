@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Daniel Riera Marimón">
+	
+	<title>Ex. 4 - PAC 3 Javascript: Introducció al DOM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="main-section">
+		<div class="container">
+			<div class="data">
+				<h1>La volta al món en 800 milisegons</h1>
+				<h2>Daniel Riera Marimón</h2>
+			</div>
+			<div id="map" class="map">
+				<div id="boat" class="boat">
+					<div class="barco"></div>
+				</div>
+				<div id="x1"></div>
+				<div id="x2"></div>
+				<div id="trajecte">
+					<div id="tr"></div>
+				</div>
+				<div id="percent">0%</div>
+				<div id="temp">0ms</div>
+			</div>
+			<div id="form">
+				<div class="form-section">
+					<label for="inX">
+						x inicial
+						<input type="text" name="inX" id="inX" value="100">
+					</label>
+
+					<label for="inY">
+						y inicial
+						<input type="text" name="inY" id="inY" value="100">
+					</label>
+				</div>
+				<div class="form-section">
+					<label for="fiX">
+						x final
+						<input type="text" name="fiX" id="fiX" value="200">
+					</label>
+					<label for="fiY">
+						y final
+						<input type="text" name="fiY" id="fiY" value="100">
+					</label>
+				</div>
+				<div class="form-section">
+					<label for="vel">
+						px/s
+						<input type="text" name="vel" id="vel" value="100">
+					</label>
+				</div>
+				<button id="inicia">Start</button>
+			</div>
+		</div>
+	</section>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
